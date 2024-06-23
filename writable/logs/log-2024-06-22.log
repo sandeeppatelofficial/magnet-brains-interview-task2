@@ -1,0 +1,1318 @@
+INFO - 2024-06-22 07:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 07:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 07:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 07:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 07:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:15:31 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\system\Model.php on line 930
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 APPPATH\Controllers\Home.php(60): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:18:45 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\system\Model.php on line 930
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 APPPATH\Controllers\Home.php(60): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:24:57 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php on line 59
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:24:59 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php on line 59
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:25:00 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php on line 59
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:25:00 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php on line 59
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:25:00 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php on line 59
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseBuilder.php on line 835.
+ 1 APPPATH\Controllers\Home.php(59): CodeIgniter\Database\BaseBuilder->whereIn([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:36:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'stripe_payment_...', 3306, '', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->products()
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+#6 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->products()
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-22 08:36:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-22 08:37:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'stripe_payment_...', 3306, '', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->products()
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+#6 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->products()
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-06-22 08:37:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:38:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->carts()
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-22 08:38:20 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:38:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:38:20 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:38:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->carts()
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-22 08:38:34 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:38:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:38:34 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 08:39:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3 in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->carts()
+#8 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-22 08:39:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: carts]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:39:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 08:39:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1721): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `products`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:40:19 --> ErrorException: Undefined variable $products
+[Method: GET, Route: carts]
+in APPPATH\Views\carts.php on line 30.
+ 1 APPPATH\Views\carts.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\carts.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\carts.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('carts', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('carts', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->carts()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:54:47 --> BadMethodCallException: Call to undefined method App\Models\ProductModel::sum
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(80): CodeIgniter\Model->__call('sum', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:56:37 --> ErrorException: Undefined property: mysqli::$price
+[Method: GET, Route: checkout]
+in APPPATH\Controllers\Home.php on line 83.
+ 1 APPPATH\Controllers\Home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$price', 'C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Controllers\\Home.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 08:57:12 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: checkout]
+in APPPATH\Controllers\Home.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 08:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 08:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 09:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 09:52:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "add_data.php"
+[Method: GET, Route: checkout]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_data.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_data', [], true)
+ 3 APPPATH\Controllers\Home.php(106): view('add_data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 10:08:16 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(310): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(112): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->checkout()
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-06-22 10:08:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (:order_code:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 10:08:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (\'202406225999\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (\'202406225999\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (:order_code:, :user_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 10:08:16 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (\'202406225999\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (\'202406225999\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (\'202406225999\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`) VALUES (:order_code:, :user_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-22 10:15:15 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\stripe-payment-gateway\system\Database\MySQLi\Connection.php(310): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\stripe-payment-gateway\system\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\stripe-payment-gateway\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\stripe-payment-gateway\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\stripe-payment-gateway\app\Controllers\Home.php(112): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(933): App\Controllers\Home->checkout()
+#10 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\stripe-payment-gateway\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\stripe-payment-gateway\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\stripe-payment-gateway\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-06-22 10:15:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: checkout]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (:order_code:, :user_id:, :cart_total:, :product_ids:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 10:15:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (\'202406227429\', 6, \'300\', (\'2\',\'1\'))')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (\'202406227429\', 6, \'300\', (\'2\',\'1\'))')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (:order_code:, :user_id:, :cart_total:, :product_ids:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-22 10:15:15 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (\'202406227429\', 6, \'300\', (\'2\',\'1\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (\'202406227429\', 6, \'300\', (\'2\',\'1\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (\'202406227429\', 6, \'300\', (\'2\',\'1\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2333): CodeIgniter\Database\BaseConnection->query('INSERT INTO `orders` (`order_code`, `user_id`, `cart_total`, `product_ids`) VALUES (:order_code:, :user_id:, :cart_total:, :product_ids:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(112): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 10:35:24 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: stripe/create-charge]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Home.php(156): CodeIgniter\Model->update(6, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createCharge()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 10:37:09 --> Stripe\Exception\InvalidRequestException: You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.
+[Method: POST, Route: stripe/create-charge]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.', 400, '{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tZxK6aTFQ4TUyY?t=1719052628",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'token_already_used')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.', 400, '{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tZxK6aTFQ4TUyY?t=1719052628",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'token_already_used', null)
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tZxK6aTFQ4TUyY?t=1719052628",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tZxK6aTFQ4TUyY?t=1719052628",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1PURHt02bHdCTCSnnsiO4wM2.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tZxK6aTFQ4TUyY?t=1719052628",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/charges', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Charge.php(92): Stripe\ApiResource::_staticRequest('post', '/v1/charges', [...], null)
+ 8 APPPATH\Controllers\Home.php(141): Stripe\Charge::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createCharge()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 10:51:28 --> InvalidArgumentException: whereIn() expects $values to be of type array or closure
+[Method: GET, Route: payment-status]
+in SYSTEMPATH\Database\BaseBuilder.php on line 951.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(837): CodeIgniter\Database\BaseBuilder->_whereIn('id', 8, false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->whereIn('id', 8)
+ 3 APPPATH\Controllers\Home.php(170): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->payment_status()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 10:52:14 --> ErrorException: Attempt to read property "order_code" on array
+[Method: GET, Route: payment-status]
+in APPPATH\Views\payment_status.php on line 30.
+ 1 APPPATH\Views\payment_status.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "order_code" on array', 'C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\payment_status.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\payment_status.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment_status', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('payment_status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->payment_status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 10:53:34 --> ErrorException: Undefined array key "cart_amount"
+[Method: GET, Route: payment-status]
+in APPPATH\Views\payment_status.php on line 35.
+ 1 APPPATH\Views\payment_status.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart_amount"', 'C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\payment_status.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\stripe-payment-gateway\\app\\Views\\payment_status.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment_status', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('payment_status', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->payment_status()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 10:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 10:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:40:39 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+[Method: POST, Route: checkout]
+in APPPATH\Controllers\Home.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:41:45 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+[Method: POST, Route: checkout]
+in APPPATH\Controllers\Home.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:45:59 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+[Method: POST, Route: checkout]
+in APPPATH\Controllers\Home.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 11:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:51:05 --> Stripe\Exception\InvalidRequestException: The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.', 400, '{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tqR3jtDbXugA4D?t=1719057065",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.', 400, '{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tqR3jtDbXugA4D?t=1719057065",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null, 'line_items[0][price]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tqR3jtDbXugA4D?t=1719057065",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tqR3jtDbXugA4D?t=1719057065",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_tqR3jtDbXugA4D?t=1719057065",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:51:48 --> Stripe\Exception\InvalidRequestException: No such price: 'price_1HKiSf2eZvKYlo2CxjF9qwbr'
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'', 400, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_mGW31t7q9nW2G3?t=1719057108",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'', 400, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_mGW31t7q9nW2G3?t=1719057108",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing', 'line_items[0][price]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_mGW31t7q9nW2G3?t=1719057108",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_mGW31t7q9nW2G3?t=1719057108",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such price: \'price_1HKiSf2eZvKYlo2CxjF9qwbr\'",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_mGW31t7q9nW2G3?t=1719057108",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:52:14 --> Stripe\Exception\InvalidRequestException: The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.', 400, '{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kstKJ9RlWAmwES?t=1719057134",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.', 400, '{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kstKJ9RlWAmwES?t=1719057134",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null, 'line_items[0][price]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kstKJ9RlWAmwES?t=1719057134",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kstKJ9RlWAmwES?t=1719057134",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.",
+    "param": "line_items[0][price]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_kstKJ9RlWAmwES?t=1719057134",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:59:00 --> Stripe\Exception\InvalidRequestException: You may only specify one of these parameters: name, price_data.
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You may only specify one of these parameters: name, price_data.', 400, '{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oG9jtGxvag5MuR?t=1719057540",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('You may only specify one of these parameters: name, price_data.', 400, '{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oG9jtGxvag5MuR?t=1719057540",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null, 'line_items[0][name]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oG9jtGxvag5MuR?t=1719057540",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oG9jtGxvag5MuR?t=1719057540",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_oG9jtGxvag5MuR?t=1719057540",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 11:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 11:59:57 --> Stripe\Exception\InvalidRequestException: Invalid array
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Invalid array', 400, '{
+  "error": {
+    "message": "Invalid array",
+    "param": "line_items[0][images]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_o1YRliVHlMGyZg?t=1719057597",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('Invalid array', 400, '{
+  "error": {
+    "message": "Invalid array",
+    "param": "line_items[0][images]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_o1YRliVHlMGyZg?t=1719057597",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null, 'line_items[0][images]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "Invalid array",
+    "param": "line_items[0][images]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_o1YRliVHlMGyZg?t=1719057597",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "Invalid array",
+    "param": "line_items[0][images]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_o1YRliVHlMGyZg?t=1719057597",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "Invalid array",
+    "param": "line_items[0][images]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_o1YRliVHlMGyZg?t=1719057597",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 12:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-22 12:01:19 --> Stripe\Exception\InvalidRequestException: You may only specify one of these parameters: name, price_data.
+[Method: POST, Route: checkout]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You may only specify one of these parameters: name, price_data.', 400, '{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_eDlSALfP0OxRCZ?t=1719057679",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(225): Stripe\Exception\InvalidRequestException::factory('You may only specify one of these parameters: name, price_data.', 400, '{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_eDlSALfP0OxRCZ?t=1719057679",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null, 'line_items[0][name]')
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_eDlSALfP0OxRCZ?t=1719057679",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_eDlSALfP0OxRCZ?t=1719057679",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "You may only specify one of these parameters: name, price_data.",
+    "param": "line_items[0][name]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_eDlSALfP0OxRCZ?t=1719057679",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiOperations\Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(131): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH\Controllers\Home.php(143): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->checkout()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-22 12:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 12:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 12:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-22 12:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
